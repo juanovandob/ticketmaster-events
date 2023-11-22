@@ -1,6 +1,8 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## React Course Practice Repository
+
+This repository is dedicated to practicing the React course from Codigo Facilito. The code is licensed under the terms available at [https://github.com/codigofacilito/ticketmaster-events-react](https://github.com/codigofacilito/ticketmaster-events-react).
 
 Currently, two official plugins are available:
 
