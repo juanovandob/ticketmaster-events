@@ -12,12 +12,19 @@ const events = data._embedded.events;  //array
 
 const Events = () => {
 
+    const handleEventItemClick = (id) => {
+        console.log(`Evento ${id} seleccionado`);
+    }  //se utiliza para ver en consola el evento seleccionado, en este caso el id del evento seleccionado.
+    
+
     const eventsComponent = events.map((eventItem) => (
         <EventItem 
             key={`event-item-${eventItem.id}`}
             name = { eventItem.name }
             info = { eventItem.info }
             image = { eventItem.images[0].url}
+            onEventClick={handleEventItemClick}
+            id = {eventItem.id} //se agrega el id para poder ver en consola el evento seleccionado.
         />
     ));
 
