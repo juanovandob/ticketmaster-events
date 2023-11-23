@@ -29,7 +29,7 @@ const Events = () => {
     ));
 
     return (
-        <div>
+        <div onClick={()=> console.log('evento padre clickeado')}> 
             Componente de Eventos
             {eventsComponent}
         </div>
